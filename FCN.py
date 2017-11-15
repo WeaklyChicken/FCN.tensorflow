@@ -23,7 +23,7 @@ MAX_ITERATION = int(1e5 + 1)
 NUM_OF_CLASSESS = 151
 IMAGE_SIZE = 224
 
-
+#annotation
 def vgg_net(weights, image):
     layers = (
         'conv1_1', 'relu1_1', 'conv1_2', 'relu1_2', 'pool1',
